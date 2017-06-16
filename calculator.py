@@ -33,7 +33,7 @@ def main():
         try:
             k = eval(k)
         except ZeroDivisionError:
-            print ("Can't divide by 0")                 # catching when input is divided by 0
+            print ("Can't divide by 0")
             exit()
         except NameError:
             print ("Invalid input")
